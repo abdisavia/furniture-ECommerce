@@ -24,6 +24,43 @@
           />
         </svg>
       </a>
+
+      <a href="" class="nav-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="fill" height="fill" viewBox="0 0 48 48">
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="3"
+            d="M15 8C8.925 8 4 12.925 4 19c0 11 13 21 20 23.326C31 40 44 30 44 19c0-6.075-4.925-11-11-11c-3.72 0-7.01 1.847-9 4.674A10.99 10.99 0 0 0 15 8"
+          />
+        </svg>
+      </a>
+      <a href="" class="nav-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="fill" height="fill" viewBox="0 0 24 24">
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="M16.5 21a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3m-8 0a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3M3.71 5.4h15.214c1.378 0 2.373 1.27 1.995 2.548l-1.654 5.6C19.01 14.408 18.196 15 17.27 15H8.112c-.927 0-1.742-.593-1.996-1.452zm0 0L3 3"
+          />
+        </svg>
+      </a>
+      <a href="" class="nav-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="fill" height="fill" viewBox="0 0 24 24">
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+            d="M19.618 21.25c0-3.602-4.016-6.53-7.618-6.53s-7.618 2.928-7.618 6.53M12 11.456a4.353 4.353 0 1 0 0-8.706a4.353 4.353 0 0 0 0 8.706"
+          />
+        </svg>
+      </a>
     </div>
   </nav>
 </template>
@@ -35,7 +72,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 70px;
-  border: 1px solid black;
 }
 
 /* nav-link */
@@ -56,6 +92,8 @@ nav {
 .nav-icons {
   width: 200px;
   display: flex;
+  justify-content: end;
+  gap: 30px;
 }
 
 .nav-icon {
