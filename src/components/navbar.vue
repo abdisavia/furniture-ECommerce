@@ -24,7 +24,6 @@
           />
         </svg>
       </a>
-
       <a href="" class="nav-icon">
         <svg xmlns="http://www.w3.org/2000/svg" width="fill" height="fill" viewBox="0 0 48 48">
           <path

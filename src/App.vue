@@ -8,7 +8,9 @@ import Navbar from './components/navbar.vue'
   <main class="appContainer">
     <Header />
     <Navbar />
-    <ProductCard />
+    <div>
+      <ProductCard />
+    </div>
   </main>
 </template>
 
