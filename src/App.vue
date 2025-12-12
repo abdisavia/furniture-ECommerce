@@ -8,8 +8,28 @@ import Navbar from './components/navbar.vue'
   <main class="appContainer">
     <Header />
     <Navbar />
-    <div>
-      <ProductCard />
+    <div class="productsContainer">
+      <ProductCard
+        name="Wooden Sofa Chair"
+        price="800.000"
+        category="Chair"
+        ratings="4.9"
+        image-url="/images/furniture_1.jpg"
+      />
+      <ProductCard
+        name="Wooden Sofa Chair"
+        price="800.000"
+        category="Chair"
+        ratings="4.9"
+        image-url="/images/furniture_1.jpg"
+      />
+      <ProductCard
+        name="Wooden Sofa Chair"
+        price="800.000"
+        category="Chair"
+        ratings="4.9"
+        image-url="/images/furniture_1.jpg"
+      />
     </div>
   </main>
 </template>
@@ -31,4 +51,12 @@ body {
   box-sizing: border-box;
 }
 </style>
-<style scoped></style>
+<style scoped>
+.productsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  width: auto;
+  margin: 25px 100px;
+}
+</style>
